@@ -4,7 +4,7 @@
 [ Fuentes de Datos ]
      |      |      |
      v      v      v
-[ MongoDB ] [ PostgreSQL ] [ CSV / API ]
+[ MongoDB ] [ MariaDB ] [ CSV / API ] 
      |        |       
      v        v     
 [ PySpark: Extracción y Transformación ]
@@ -19,7 +19,7 @@
 [ Airflow DAGs ]
      |
      v
-[ Capa de Reporting / Visualización / Power BI / Grafos ]
+[ Capa de Reporting / Visualización / Power BI / Grafos ]  [ ArangoDb ]
 
 ## Carpetas
 etl-class/
