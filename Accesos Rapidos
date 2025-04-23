@@ -1,8 +1,12 @@
-Servicio | URL de acceso | Usuario | Contraseña
-PostgreSQL | localhost:5432 (desde clientes como DBeaver, pgAdmin) | admin | upana
-pgAdmin | http://localhost:5050 | admin@admin.com | upana
-MongoDB | localhost:27017 (desde Mongo Compass, etc.) | admin | upana
-Redis | localhost:6379 (requiere contraseña) | - | upana
-Redis Commander | http://localhost:8081 | - (conectado a Redis automáticamente) | upana
-Airflow | http://localhost:8088 | admin | upana
-Metabase | http://localhost:3000 | Se configura al primer ingreso 
+Servicio | URL | Usuario | Contraseña | Notas
+PostgreSQL | localhost:5432 | admin | upana | DB: etldb
+pgAdmin | http://localhost:5050 | upana@upana.edu.gt | upana | Añade conexión manual a etldb
+MongoDB | localhost:27017 | admin | upana | 
+Redis | localhost:6379 | N/A | upana | Se conecta con requirepass
+Redis Commander | http://localhost:8081 | N/A | upana | Ya configurado con Redis
+Cassandra | localhost:9042 | cassandra | cassandra | Default credentials
+DataStax Studio | http://localhost:9091 | N/A | N/A | IDE para Cassandra
+ArangoDB | http://localhost:8529 | root | upana | Interfaz gráfica incluida
+Metabase | http://localhost:3000 | Configurado al iniciar | - | Crear usuario en primer inicio
+Elasticsearch | http://localhost:9200 | elastic | upana | REST API
+Kibana | http://localhost:5601 | elastic | upana | Visualización para Elasticsearch
