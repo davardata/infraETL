@@ -1,7 +1,8 @@
-Herramienta | URL | Usuario | Contraseña
-PostgreSQL | localhost:5432 | admin | upana
+Servicio | URL de acceso | Usuario | Contraseña
+PostgreSQL | localhost:5432 (desde clientes como DBeaver, pgAdmin) | admin | upana
 pgAdmin | http://localhost:5050 | admin@admin.com | upana
-MongoDB | localhost:27017 | admin | upana
-Redis Commander | http://localhost:8081 | - (auto) | upana
+MongoDB | localhost:27017 (desde Mongo Compass, etc.) | admin | upana
+Redis | localhost:6379 (requiere contraseña) | - | upana
+Redis Commander | http://localhost:8081 | - (conectado a Redis automáticamente) | upana
 Airflow | http://localhost:8088 | admin | upana
-Metabase | http://localhost:3000 | (se configura en primer inicio) | 
+Metabase | http://localhost:3000 | Se configura al primer ingreso | Puedes usar admin@upana.com / upana
