@@ -3,5 +3,5 @@ PostgreSQL | localhost:5432 | admin | upana
 pgAdmin | http://localhost:5050 | admin@admin.com | upana
 MongoDB | localhost:27017 | admin | upana
 Redis Commander | http://localhost:8081 | - (auto) | upana
-Airflow | http://localhost:8088 | (config a nivel backend) | 
+Airflow | http://localhost:8088 | admin | upana
 Metabase | http://localhost:3000 | (se configura en primer inicio) | 
