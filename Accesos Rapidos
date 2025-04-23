@@ -5,4 +5,4 @@ MongoDB | localhost:27017 (desde Mongo Compass, etc.) | admin | upana
 Redis | localhost:6379 (requiere contraseña) | - | upana
 Redis Commander | http://localhost:8081 | - (conectado a Redis automáticamente) | upana
 Airflow | http://localhost:8088 | admin | upana
-Metabase | http://localhost:3000 | Se configura al primer ingreso | Puedes usar admin@upana.com / upana
+Metabase | http://localhost:3000 | Se configura al primer ingreso 
