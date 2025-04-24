@@ -5,7 +5,6 @@ MongoDB | localhost:27017 | admin | upana |
 Redis | localhost:6379 | N/A | upana | Se conecta con requirepass
 Redis Commander | http://localhost:8081 | N/A | upana | Ya configurado con Redis
 Cassandra | localhost:9042 | cassandra | cassandra | Default credentials
-DataStax Studio | http://localhost:9091 | N/A | N/A | IDE para Cassandra
 ArangoDB | http://localhost:8529 | root | upana | Interfaz gráfica incluida
 Metabase | http://localhost:3000 | Configurado al iniciar | - | Crear usuario en primer inicio
 Elasticsearch | http://localhost:9200 | elastic | upana | REST API
