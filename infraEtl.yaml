@@ -132,7 +132,7 @@ services:
       ports:
         - "8888:8888"
       environment:
-        - SPARK_MASTER=spark://d3d81470e338:7077
+        - SPARK_MASTER=spark://spark:7077
         - JUPYTER_TOKEN=upana 
       volumes:
         - ./spark:/home/jovyan/work
