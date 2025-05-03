@@ -125,17 +125,18 @@ services:
       - "9042:9042"
     volumes:
       - cassandra_data:/var/lib/cassandra
-  jupyterNotebook:
-      image: jupyter/pyspark-notebook
-      depends_on:
-        - spark
-      ports:
-        - "8888:8888"
-      environment:
-        - SPARK_MASTER=spark://spark:7077
-        - JUPYTER_TOKEN=upana 
-      volumes:
-        - ./spark:/home/jovyan/work
+
+  pyspark-notebook:
+    image: jupyter/pyspark-notebook:latest
+    container_name: pyspark-notebook
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./work:/home/jovyan/work
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+      - JUPYTER_TOKEN=upana
+    restart: unless-stopped
 
 volumes:
   pg_data:
